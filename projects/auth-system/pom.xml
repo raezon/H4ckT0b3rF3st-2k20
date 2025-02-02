@@ -58,7 +58,7 @@
                 <version>0.0.4</version>
                 <configuration>
                     <release>${javafx.version}</release>
-                    <mainClass>>me.abdera7mane.authsystem.AuthSystem</mainClass>
+                    <mainClass>&gt;me.abdera7mane.authsystem.AuthSystem</mainClass>
                 </configuration>
 
             </plugin>
@@ -90,7 +90,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-graphics</artifactId>
-            <version>14</version>
+            <version>14.0.2.1</version>
             <scope>compile</scope>
         </dependency>
 

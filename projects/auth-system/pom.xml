@@ -13,7 +13,7 @@
         <java.version>14</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <javafx.version>14</javafx.version>
-        <springSecurity.version>5.4.0</springSecurity.version>
+        <springSecurity.version>5.8.16</springSecurity.version>
     </properties>
 
     <build>
@@ -58,7 +58,7 @@
                 <version>0.0.4</version>
                 <configuration>
                     <release>${javafx.version}</release>
-                    <mainClass>>me.abdera7mane.authsystem.AuthSystem</mainClass>
+                    <mainClass>&gt;me.abdera7mane.authsystem.AuthSystem</mainClass>
                 </configuration>
 
             </plugin>
